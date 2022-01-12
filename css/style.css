@@ -149,7 +149,7 @@ a.create {
 }
 .headline h1 {
   margin-top: 15vh;
-  text-transform:uppercase
+  text-transform: uppercase;
 }
 .headline .button {
   margin-top: 30px;
@@ -650,50 +650,58 @@ footer span {
     padding-left: 0 !important;
     justify-content: start !important;
   }
-  .syncs img{
+  .syncs img {
     width: 100%;
-    margin-bottom:40px;
-    margin-top:20px
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
   .advantages {
     margin-top: -520px;
   }
-  .advantages h2, .conversion h2, .app h2 {
+  .advantages h2,
+  .conversion h2,
+  .app h2 {
     font-size: 50px;
     line-height: normal;
   }
   .foryou h2 {
     font-size: 60px;
-    line-height: 90px!important;
+    line-height: 90px !important;
   }
-  .try h2{font-size: 85px;}
-  .logos img, .trusted img {
+  .try h2 {
+    font-size: 85px;
+  }
+  .logos img,
+  .trusted img {
     margin-left: 0;
   }
-  .logos .row div:first-child, .conversion .row div {
-    text-align:center
+  .logos .row div:first-child,
+  .conversion .row div {
+    text-align: center;
   }
-  .trusted .row div:nth-child(2){
-    margin-bottom:-25px
+  .trusted .row div:nth-child(2) {
+    margin-bottom: -25px;
   }
   .fmenu div:nth-child(2) {
-    margin-top:30px;
+    margin-top: 30px;
   }
-  .fmenu div:nth-child(2) div, .fmenu div:nth-child(2) ul{
-display:block!important;
-margin-bottom: 25px;
+  .fmenu div:nth-child(2) div,
+  .fmenu div:nth-child(2) ul {
+    display: block !important;
+    margin-bottom: 25px;
   }
-  .fmenu div:nth-child(2) p, .fmenu div:nth-child(2) div div:last-child{
-    padding-left:35px;
+  .fmenu div:nth-child(2) p,
+  .fmenu div:nth-child(2) div div:last-child {
+    padding-left: 35px;
   }
-  .fmenu div:nth-child(2) ul li:nth-child(4){
-    display:none!important
+  .fmenu div:nth-child(2) ul li:nth-child(4) {
+    display: none !important;
   }
   .questions .q {
-    padding:1rem 1.9rem 1rem 1rem!important
+    padding: 1rem 1.9rem 1rem 1rem !important;
   }
   .questions .active .arrow {
-    right:10px
+    right: 10px;
   }
   .questions .arrow {
     right: 10px;
@@ -710,4 +718,6 @@ margin-bottom: 25px;
   .container {
     max-width: 1453px;
   }
+}
+.here {
 }
