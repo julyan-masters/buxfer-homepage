@@ -5,6 +5,7 @@ body {
   font-size: 25px;
   font-weight: 300;
   overflow-x: hidden;
+  background-color: #f8fafd;
 }
 h1 {
   font-size: 60px;
@@ -60,7 +61,7 @@ p {
 .btn.orange {
   background-color: #fc5f38;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 24px;
   border-radius: 10px;
@@ -83,11 +84,11 @@ p {
 }
 
 header {
-  background-image: linear-gradient(to bottom left, #401dd5, #1f0c50);
+  background-image: url("../img/header-home.png");
 }
 .head {
   padding: 30px 0;
-  border-bottom: 1px solid #334eb5;
+  border-bottom: 1px solid #434554;
 }
 .navbar-nav a {
   color: #fff !important;
@@ -110,9 +111,8 @@ nav.user a:first-child {
   color: #fff !important;
 }
 .navbar-nav .divdr::before {
-  color: #8671df;
+  color: #b6b7be;
   content: "|";
-  font-weight: bold;
   font-size: 17px;
 }
 a.create {
@@ -141,14 +141,15 @@ a.create {
 .head .row div:last-child {
   line-height: 40px;
 }
-.headline .row {
-  height: 90vh;
+.headline {
+  padding-bottom: 15vh;
 }
 .headline .right img {
   transform: translate(65px, 0);
 }
 .headline h1 {
   margin-top: 15vh;
+  line-height: 105px;
   text-transform: uppercase;
 }
 .headline .button {
@@ -157,6 +158,85 @@ a.create {
 .headline .btn {
   padding: 25px 70px !important;
 }
+.headline .stats ._tiny {
+  font-size: 16px;
+  color: #afaeb4;
+  display: block;
+  font-weight: 500;
+}
+.headline .stats div {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 0.8em;
+}
+
+.featr {
+  background-color: #f8fafd;
+}
+
+.featr h2 {
+  color: #122392;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 0;
+}
+.featr img {
+  margin-left: -25px;
+}
+.budget ul {
+  padding-left: 0;
+}
+
+.budget li {
+  color: #4d5362;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  background: url("../img/tick-circle.png") no-repeat left top;
+  list-style: none;
+  padding: 0 0 2px 65px;
+}
+.budget .forecast,
+.budget .retire {
+  padding-top: 15vh;
+}
+.budget .forecast img {
+  margin-left: -330px;
+  margin-top: -190px;
+}
+.budget .quote {
+  background: url("../img/ic_format_quote_48px.png") no-repeat 0 0 transparent;
+  padding-left: 70px;
+  margin-top: -130px;
+}
+.budget .quote p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 32px;
+  color: #4d5362;
+}
+.budget .quote p:last-child {
+  font-size: 12px;
+  color: #a5a5a7;
+  line-height: 16px;
+}
+.budget .quote p:last-child span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #42b7ff;
+}
+.budget .retire h2 {
+  color: #122392;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 70px;
+}
+
 .button a {
   background-color: #fc5f38;
   border-radius: 10px;
@@ -171,90 +251,6 @@ a.create {
   font-size: 12px;
   line-height: 30px;
   opacity: 0.7;
-}
-
-.migration {
-  background-image: linear-gradient(to bottom right, #110434, #1c0757);
-  overflow: hidden;
-  padding: 30px 0;
-}
-.migration .col-md-7 {
-  position: relative;
-  z-index: 5;
-  height: 55vh;
-}
-.migration .c-float {
-  background: url("../img/ellipse.png") no-repeat 0 0 transparent;
-  position: absolute;
-  height: 573px;
-  width: 573px;
-  z-index: 1;
-  right: 0;
-}
-.migration .right {
-  position: relative;
-  z-index: 5;
-}
-
-.why {
-  background-color: #f8fafd;
-  position: relative;
-  z-index: 5;
-  padding: 100px 0;
-}
-.why h2 {
-  text-align: center;
-  font-weight: 900;
-  font-size: 60px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-.why .left img {
-  margin-left: -220px;
-  margin-top: -110px;
-}
-.why h3 {
-  color: #122392;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 67.5px;
-  margin-bottom: 30px;
-}
-.why .right {
-  padding-top: 95px;
-}
-.why p {
-  color: #4d5362;
-}
-.why .quote {
-  background: url("../img/ic_format_quote_48px.png") no-repeat 0 0 transparent;
-  padding-left: 70px;
-  margin-top: -40px;
-}
-.why .quote p:first-child {
-  font-size: 16px;
-  font-weight: 500;
-  font-style: italic;
-  line-height: 32px;
-  color: #4d5362;
-}
-.why .quote p:last-child {
-  font-size: 12px;
-  color: #a5a5a7;
-  line-height: 16px;
-}
-.why .quote p:last-child span {
-  font-size: 16px;
-  font-weight: 700;
-  color: #42b7ff;
-}
-.why .right img {
-  margin-top: -330px;
-  margin-left: -140px;
-}
-.why .container:last-child .quote {
-  transform: translate(100px, -93px);
-  margin: 0;
 }
 
 .ever {
@@ -407,15 +403,6 @@ a.create {
 }
 .foryou ul {
   margin-bottom: 0;
-}
-.foryou li {
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 45px;
-  margin-bottom: 60px;
-  background: url("../img/tick-circle.svg") no-repeat left top;
-  list-style: none;
-  padding: 0px 0px 1px 80px;
 }
 
 .people p {
@@ -573,25 +560,6 @@ footer span {
   .advantages .pt-6 {
     padding-top: 0 !important;
   }
-  .migration .c-float {
-    bottom: 0;
-    right: 50px;
-  }
-  .migration .right img {
-    position: relative;
-    z-index: 5;
-    width: 100%;
-  }
-  .migration .row div:first-child {
-    position: relative;
-    z-index: 5;
-  }
-  .why .left img {
-    margin: 0;
-  }
-  .why .right img {
-    margin: 0;
-  }
   .advantages img.abi {
     margin: 0;
     width: 100%;
@@ -630,9 +598,6 @@ footer span {
 @media (max-width: 1500px) {
   .financial .left img {
     margin: 0;
-  }
-  .why .container:last-child .quote {
-    transform: none;
   }
   .syncs img,
   .financial .right img {
@@ -718,6 +683,4 @@ footer span {
   .container {
     max-width: 1453px;
   }
-}
-.here {
 }
