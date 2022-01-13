@@ -510,6 +510,26 @@ a.create {
   line-height: 32px;
   color: #4d5362;
 }
+.brag .row > div > div {
+  margin-bottom: 30px;
+}
+.brag .rave h3 {
+  margin-top: 120px;
+}
+.brag .rave .row div > div {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0px 10px 20px #0e419310;
+  min-height: 320px;
+}
+.brag .rave p {
+  font-size: 25px;
+  color: #4d5362;
+  line-height: 45px;
+  font-weight: 300;
+  margin-top: 20px;
+}
 .app {
   background: url(../img/bufer-isnt-just-bg.png) no-repeat -120px 0 transparent;
   background-size: cover;
