@@ -374,9 +374,10 @@ a.create {
   padding: 150px 0;
 }
 .try h2 {
-  font-size: 120px;
-  line-height: 120px;
+  font-size: 60px;
+  line-height: 90px;
   font-weight: 900;
+  margin-bottom: 25px;
 }
 .try img {
   margin-top: -40px;
