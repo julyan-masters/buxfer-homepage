@@ -393,6 +393,11 @@ a.create {
     0% no-repeat padding-box;
   padding: 120px 0;
 }
+.blue-gradient2 {
+  background: transparent linear-gradient(205deg, #401dd5 0%, #1f0c50 100%) 0%
+    0% no-repeat padding-box;
+  padding: 120px 0;
+}
 .blue-gradient p {
   font-weight: 300;
   font-size: 25px;
@@ -423,7 +428,7 @@ a.create {
   margin-left: -100px;
 }
 .access {
-  padding: 150px 0;
+  padding: 150px 0 50px;
 }
 .access img {
   margin-left: -310px;
@@ -456,26 +461,55 @@ a.create {
 .access .share img {
   margin-left: -260px;
 }
-
-.people p {
-  font-size: 16px;
-  color: #4d5362;
-  line-height: 32px;
-  font-weight: 500;
+.plus h3 {
+  margin-bottom: 90px;
 }
-.people .testimonials .col-xl-3 > div {
+.plus.blue-gradient2 {
+  padding-bottom: 250px;
+}
+.plus .boxes .title {
+  font-size: 25px;
+  line-height: 31px;
+  font-weight: 700;
+  color: #fff;
+}
+.plus .boxes p {
+  color: #a5c1e8;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.plus .boxes .row div div {
+  padding: 55px 60px;
+  background-color: #693cf25c;
+  border-radius: 20px;
+  height: 275px;
+  overflow: hidden;
+}
+.plus .boxes .row {
+  margin-bottom: 25px;
+}
+.brag {
+  padding: 150px 0;
+}
+.brag .col-xl-3 > div {
   padding: 50px 40px 40px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 10px 20px #0e419310;
   border-radius: 20px;
 }
-.people .name p {
+.brag p {
+  font-size: 16px;
+  color: #4d5362;
+  line-height: 32px;
+  font-weight: 500;
+}
+.brag .name p {
   font-size: 16px;
   font-weight: 900;
   line-height: 32px;
   color: #4d5362;
 }
-
 .app {
   background: url(../img/bufer-isnt-just-bg.png) no-repeat -120px 0 transparent;
   background-size: cover;
