@@ -559,6 +559,14 @@ a.create {
 .top10 p span {
   font-weight: 900;
 }
+.top10 h3 {
+  padding-right: 30px;
+}
+.days p {
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
 .button p.dark {
   opacity: 1;
   color: #4d5362;
