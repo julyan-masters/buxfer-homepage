@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Museo", cursive;
   color: #fff;
@@ -566,6 +569,19 @@ a.create {
   font-weight: 300;
   color: #ffffff;
   text-align: center;
+}
+.security {
+  background-color: #fff;
+}
+.security .row .col-md-4 div {
+  padding: 80px 50px 100px;
+  border-right: 1px solid #d4e2f7;
+}
+.security .row .col-md-4:last-child div {
+  border-right: 0;
+}
+.security img {
+  margin-left: -20px;
 }
 .button p.dark {
   opacity: 1;
