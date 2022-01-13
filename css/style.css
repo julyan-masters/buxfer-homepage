@@ -574,8 +574,9 @@ a.create {
   background-color: #fff;
 }
 .security .row .col-md-4 div {
-  padding: 80px 50px 100px;
+  padding: 80px 50px;
   border-right: 1px solid #d4e2f7;
+  height: 600px;
 }
 .security .row .col-md-4:last-child div {
   border-right: 0;
